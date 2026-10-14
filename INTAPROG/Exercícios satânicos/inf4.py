@@ -12,6 +12,6 @@ while i <= n:
         print(a)
     elif (b >= a and b <= c) or (b >= c and b <= a):
         print(b)
-    elif (c >= a and c <= b) or (c >= b and c <= a):
+    else:
         print(c) 
     i += 1
